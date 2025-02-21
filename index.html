@@ -1,6 +1,6 @@
 <html>
     <head>
-        <link rel="stylesheet" href="style.css"><!--Serve para interligar um script ao outro-->
+        <link rel="stylesheet" href="style(1).css"><!--Serve para interligar um script ao outro-->
 
         <title>Absolute Cinema</title> <!--Colocar titulo no site-->
 
@@ -18,14 +18,14 @@
 
                 </div>
 
-                <h1 >Breaking Bad</h1><!--Titulo principal-->
+                <h1 id ="inicio">Breaking Bad</h1><!--Titulo principal-->
 
                 <h2>A série que mostra como
                     professores de química são perigosos</h2>
 
                     <br><!--Quebrar a linha-->
 
-                <ul>Enredo da série:</ul!-->
+                <ul >Enredo da série:</ul!-->
 
                 <p>Walter White é um gênio da química, mas trabalha como professor de química em uma escola secundária em Albuquerque, Novo México.
                      Sua vida muda drasticamente quando ele é diagnosticado 
@@ -42,7 +42,7 @@
                        
                 <div class="image2">
 
-                    <ul>Sucesso no Novo México:</ul>
+                    <ul id="Filmes">Sucesso no Novo México:</ul>
 
                     <br>
 
@@ -141,10 +141,33 @@
                             <br>
 
                           <iframe width="560" height="315" src="https://www.youtube.com/embed/3VSx9O0lS0E?si=Ya2IB5AxNvzGzjfd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
-                        
+                      
                         </div>
 
                         </div>
+                        <br>
+                        <h2>Receba mais conteúdos!</h2>
+                        <br>
+                        <form id="contato">
+                            <label>Nome:</label>
+                            <input type="text" name="campoNome">
+                            <br><br>
+                            <label>Email</label>
+                            <input name="campoEmail">
+                            <br><br>
+                            <label>Interesses:</label>
+                            <br>
+                            <input type="checkbox" name="campoFilme">Filmes
+                            <br><br>
+                            <input type="checkbox" name="campoSeries">Séries
+                            <br><br>
+                            <input type="checkbox" name="campoNotícias">Notícias
+                            <br><br>
+                            <input type="reset" value="Limpar">
+                            
+                            <input type="submit" value="Cadastrar">
+                            
+                        </form>
 
             </div>
 
@@ -154,13 +177,13 @@
 
                 <div class="menu">
 
-                    <a href="#início">Início</a>
+                    <a href="#inicio">Início</a>
 
-                    <a href="#sobre">Sobre</a>
+                    <a href="#contato">Contato</a>
 
-                    <a href="#serviços">Séries</a>
+                    <a href="#Series">Séries</a>
 
-                    <a href="#contato">Filmes</a>
+                    <a href="#Filmes">Filmes</a>
 
                 </div>
 
