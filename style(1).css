@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+.menu {
+    border: 30px solid red;
+    margin: 10px auto 50px auto;
+    text-align: center;
+    background-color: black;
+    width: 2000px;
+
+    color: white;
+}
+
+.menu a {
+    font-size: 30px;
+    ;
+}
+
+.menu img {
+    margin-top: 10px;
+
+}
+
+
+
+.main_pag {
+    display: flex;
+    flex-flow: row wrap;
+    /* align-items: center; */
+    margin: auto;
+    font-size: 30px;
+    border: 30px solid red;
+    background-color: black;
+    width: 2000px;
+    justify-content: space-between;
+
+    color: white;
+}
+
+.textos {
+    max-width: 70%; 
+}
+
+.main_pag img {
+    width: 300px;
+}
+
+
+
+
+.links {
+    background-color: rgb(74, 77, 77);
+    width: 30%;
+    position: relative;
+    align-items: end;
+
+
+}
