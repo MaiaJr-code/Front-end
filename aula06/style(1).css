@@ -1,0 +1,61 @@
+.janela01 {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 0.5em;
+    margin-top: 1em;
+    overflow: auto;
+    text-align: center;
+
+}
+.imagem1 {
+    float: left;
+}
+
+
+
+.janela02 {
+    border-radius: 10px;
+    display: flex;
+    border: 2px solid rgb(255, 0, 0);
+    padding: 0.5em;
+    margin-top: 1em;
+    overflow: auto;
+
+}
+.janela02 p {
+    flex:1;
+}
+
+.janela03 {
+    border-radius: 10px;
+    border: 2px solid rgb(102, 255, 0);
+    padding: 0.5em;
+    margin-top: 1em;
+    overflow: auto;
+    
+
+}
+.imagem3 {
+    float: right;
+
+}
+
+.janela04 {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.5em;
+    margin-top: 1em !important ;
+    overflow: auto;
+
+
+
+}
+.rodape {
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 0.5em;
+    margin-top: 1em !important ;
+
+
+}
