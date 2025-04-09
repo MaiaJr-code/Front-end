@@ -1,1 +1,74 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+body{
+    background-color: rgb(18, 49, 35);
+
+}
+
+}
+.janela {
+    background-color: black;
+    width: 50%;
+    height: 90%;
+    margin:0 auto;
+    position: relative;
+}
+.outrajanela img {
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+
+}
+.logotipo img {
+    position: absolute;
+    top:0.5%;
+    left:5%;
+    width: 30%;
+    height: 20%;
+    object-fit: contain;
+
+}
+.menu img {
+    position: absolute;
+    top:0.5%;
+    left:40%;
+    width: 50%;
+    height: 20%;
+    object-fit: contain;
+
+}
+.janela2,.janela3,.janela4,.janela5 {
+    width: 100%;
+    height:auto;
+    
+}
+.janela2 {
+    background-color: rgb(99, 30, 30);
+    height: 15%;
+    
+}
+.janela3 {
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    
+    
+}
+.janela3 p{
+    margin-left: 30%;
+}
+.janela3 h1 {
+    margin-left: 30%;
+}
+.janela4{
+    background-color: rgb(102, 102, 102);
+    height: 50%;
+    
+}
+.janela5{
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    
+}
 
