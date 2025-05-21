@@ -1,0 +1,69 @@
+<html>
+    <body>
+        <label>Valor 1</label>
+        <input id="valor1"> <br><br>
+        <label>Valor 2</label>
+        <input id="valor2"> <br><br>
+        <label>RESULTADO:</label>
+        <span id="resultado">0</span>
+        <br><br>
+        <button onclick="soma();">SOMA</button>
+        <button onclick="subtracao();">SUBTRAÇÃO</button>
+        <button onclick="mult();">MULTIPLICAÇÃO</button>
+        <button onclick="divisao();">DIVISÃO</button>
+
+        <script>
+            function getValores() {
+                let v1 = document.getElementById("valor1").value;
+                let v2 = document.getElementById("valor2").value;
+
+                // Verifica se os campos estão vazios ou não são números
+                if (v1 === "" || v2 === "" || isNaN(v1) || isNaN(v2)) {
+                    return null;
+                }
+
+                return [parseFloat(v1), parseFloat(v2)];
+            }
+
+            function soma() {
+                let valores = getValores();
+                if (!valores) return mostrarErro();
+                let [n1, n2] = valores;
+                mostrarResultado(n1 + n2);
+            }
+
+            function subtracao() {
+                let valores = getValores();
+                if (!valores) return mostrarErro();
+                let [n1, n2] = valores;
+                mostrarResultado(n1 - n2);
+            }
+
+            function mult() {
+                let valores = getValores();
+                if (!valores) return mostrarErro();
+                let [n1, n2] = valores;
+                mostrarResultado(n1 * n2);
+            }
+
+            function divisao() {
+                let valores = getValores();
+                if (!valores) return mostrarErro();
+                let [n1, n2] = valores;
+                if (n2 === 0) {
+                    document.getElementById("resultado").innerText = "Erro: divisão por zero!";
+                } else {
+                    mostrarResultado(n1 / n2);
+                }
+            }
+
+            function mostrarResultado(valor) {
+                document.getElementById("resultado").innerText = valor;
+            }
+
+            function mostrarErro() {
+                document.getElementById("resultado").innerText = "Erro: preencha os campos corretamente.";
+            }
+        </script>
+    </body>
+</html>
